@@ -1,5 +1,5 @@
 class Calculator:
-    def add(self, a, b):
+    def branch_add(self, a, b):
         return a + b
 
     def branch_subtract(self, a, b):
