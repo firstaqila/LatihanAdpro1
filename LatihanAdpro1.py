@@ -2,7 +2,7 @@ class Calculator:
     def add(self, a, b):
         return a + b
 
-    def subtract(self, a, b):
+    def branch_subtract(self, a, b):
         return a - b
 
     def branch_multiply(self, a, b):
