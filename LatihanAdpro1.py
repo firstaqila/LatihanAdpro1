@@ -8,7 +8,7 @@ class Calculator:
     def multiply(self, a, b):
         return a * b
 
-    def divide(self, a, b):
+    def branch_divide(self, a, b):
         return a / b
 
 if __name__ == "__main__":
