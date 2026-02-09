@@ -8,7 +8,7 @@ class Calculator:
     def branch_multiply(self, a, b):
         return a * b
 
-    def divide(self, a, b):
+    def branch_divide(self, a, b):
         return a / b
 
 if __name__ == "__main__":
@@ -17,4 +17,4 @@ if __name__ == "__main__":
     print("Addition:", calc.add(10, 5))
     print("Subtraction:", calc.subtract(10, 5))
     print("Multiplication:", calc.branch_multiply(10, 5))
-    print("Division:", calc.divide(10, 5))
+    print("Division:", calc.branch_divide(10, 5))
